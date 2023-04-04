@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:background="#00BCD4">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="105dp"
+            android:layout_height="103dp"
+
+            android:layout_gravity="center"
+            android:src="@drawable/pic6"
+            app:civ_border_color="#ffff"
+            app:civ_border_width="0.5dp"
+
+            ></de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Nguyễn Thái Ngọc Tân"
+            android:textColor="#ffff"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:text="nguyenthaingoctan16@gmail.com"
+            android:textColor="#ffff"
+            android:textSize="16dp"
+
+            android:gravity="center"
+            />
+
+
+
+
+    </LinearLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginLeft="32dp"
+
+            android:layout_marginRight="32dp"
+
+            android:background="@drawable/bg_white_real_corner_16"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="75dp"
+                android:layout_height="75dp" >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:text="nguyenthaingoctan16@gmail.com"
+                    android:textColor="#DA1010"
+                    android:textSize="16dp"
+
+                    android:gravity="center"
+                    />
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

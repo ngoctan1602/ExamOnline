@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_corner_16"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm câu hỏi"
+        android:textSize="32sp"
+        android:background="@drawable/bg_white_16_topleft_topright"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        ></TextView>
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <EditText
+                android:id="@+id/txt_nameQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập câu hỏi"
+                android:layout_margin="8dp"
+
+                android:minHeight="48dp"
+                android:minWidth="32dp"
+                android:gravity="center"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:background="@drawable/bg_white_corner_border_16"></EditText>
+            <EditText
+                android:id="@+id/txt_anwser1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập đáp án thứ nhất"
+                android:layout_margin="6dp"
+                android:minHeight="48dp"
+                android:minWidth="32dp"
+                android:gravity="center"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:background="@drawable/bg_white_corner_border_16"></EditText>
+            <EditText
+                android:id="@+id/txt_anwser2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập đáp án thứ hai"
+                android:layout_margin="6dp"
+                android:minHeight="48dp"
+                android:minWidth="32dp"
+                android:gravity="center"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:background="@drawable/bg_white_corner_border_16"></EditText>
+            <EditText
+                android:id="@+id/txt_anwser3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập đáp án thứ ba"
+                android:layout_margin="6dp"
+                android:minHeight="48dp"
+                android:minWidth="32dp"
+                android:gravity="center"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:background="@drawable/bg_white_corner_border_16"></EditText>
+            <EditText
+                android:id="@+id/txt_anwser4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập đáp án thứ tư"
+                android:layout_margin="6dp"
+                android:minHeight="48dp"
+                android:minWidth="32dp"
+                android:gravity="center"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:background="@drawable/bg_white_corner_border_16"></EditText>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Hủy bỏ"
+            android:layout_weight="1"
+            android:textColor="#009688"
+            >
+
+        </Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Xác nhận"
+            android:layout_weight="1"
+            android:textColor="#009688"
+            >
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>

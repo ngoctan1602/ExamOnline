@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="12dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="10dp"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="994dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/teal_700"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="38dp"
+
+
+            android:layout_toRightOf="@+id/txt_subject"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/txt_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên môn học"
+            android:textSize="24sp"
+            android:textColor="#ffff"
+
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_sumTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_subject"
+            android:text="Tổng số bài thi"
+            android:textSize="16sp"
+            android:textColor="#ffff"
+
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_sumQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_sumTest"
+            android:text="Tổng số câu hỏi"
+            android:textSize="16sp"
+            android:textColor="#ffff"
+
+            >
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

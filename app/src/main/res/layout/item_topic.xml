@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="994dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/txt_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên chủ đề"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_sumTest_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_topic"
+            android:text="Tổng số bài thi"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_sumQuestion_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_sumTest_topic"
+            android:text="Tổng số câu hỏi"
+            android:textSize="16sp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
